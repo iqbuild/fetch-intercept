@@ -19,7 +19,7 @@ function interceptor(fetch, ...args) {
   // Register fetch call
   promise = promise.then(args => {
     const request = new Request(...args);
-    return fetch(request).then(response => {
+    return fetch(request.clone()).then(response => {
       response.request = request;
       return response;
     }).catch(error => {
