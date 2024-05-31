@@ -1,5 +1,5 @@
 {
-  "name": "fetch-intercept",
+  "name": "@iqbuild/fetch-intercept",
   "version": "2.4.0",
   "description": "Interceptor library for the native fetch command inspired by angular http intercepts.",
   "main": "lib/node.js",
@@ -11,13 +11,12 @@
     "webpack": "webpack",
     "prepublish": "npm run webpack && webpack -p"
   },
-  "homepage": "https://github.com/werk85/fetch-intercept",
+  "homepage": "https://github.com/iqbuild/fetch-intercept",
   "bugs": {
-    "url": "https://github.com/werk85/fetch-intercept/issues",
-    "email": "legenhausen@werk85.de"
+    "url": "https://github.com/iqbuild/fetch-intercept/issues"
   },
   "repository": {
-    "url": "https://github.com/werk85/fetch-intercept.git"
+    "url": "https://github.com/iqbuild/fetch-intercept.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
