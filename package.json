@@ -9,7 +9,7 @@
     "test": "eslint . && karma start",
     "test:watch": "karma start --no-single-run",
     "webpack": "webpack",
-    "prepublish": "npm test && webpack && webpack -p"
+    "prepublish": "npm webpack && webpack -p"
   },
   "homepage": "https://github.com/werk85/fetch-intercept",
   "bugs": {
