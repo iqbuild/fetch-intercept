@@ -19,6 +19,9 @@
   "repository": {
     "url": "https://github.com/werk85/fetch-intercept.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "fetch",
     "request",
